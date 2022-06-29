@@ -51,7 +51,7 @@ colors:
 # Optional navbar
 # links: [] # Allows for navbar (dark mode, layout, and search) without any links
 links:
-  - name: "Webmaik"
+  - name: "Webmail"
     icon: "fas fa-envelope"
     url: "http://outlook.office.com"
     target: "_blank" # optional html a tag target attribute
@@ -120,6 +120,12 @@ services:
   - name: "Tools"
     icon: "fas fa-hammer"
     items:
+      - name: "YOURLS"
+        logo: "assets/tools/sample.png"
+        subtitle: "URL Shortener"
+        tag: "app"
+        url: "https://alam.au/admin/"
+        target: "_blank" # optional html a tag target attribute
       - name: "CyberChef"
         logo: "assets/tools/sample.png"
         subtitle: "The Cyber Swiss Army Knife"
