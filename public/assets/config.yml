@@ -107,7 +107,7 @@ services:
         logo: "assets/tools/privatebin.png"
         subtitle: "Pastebin where the server has zero knowledge of pasted data."
         tag: "app"
-        url: "https://bin.adrianlam.com/"
+        url: "https://privatebin.adrianlam.com/"
         target: "_blank" # optional html a tag target attribute
       - name: "Send"
         logo: "assets/tools/send.png"
