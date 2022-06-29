@@ -77,7 +77,7 @@ services:
         logo: "assets/tools/freshrss.png"
         subtitle: "RSS feed aggregator"
         tag: "app"
-        url: "https://rss.adrianlam.com/"
+        url: "https://freshrss.adrianlam.com/"
         target: "_blank" # optional html a tag target attribute
 
   - name: "Editors"
