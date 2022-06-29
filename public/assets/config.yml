@@ -7,7 +7,7 @@ subtitle: "Lama"
 logo: "logo.png"
 # icon: "fas fa-skull-crossbones" # Optional icon
 
-header: true
+header: false
 #footer: '<p>Created with <span class="has-text-danger">❤️</span> with <a href="https://bulma.io/">bulma</a>, <a href="https://vuejs.org/">vuejs</a> & <a href="https://fontawesome.com/">font awesome</a> // Fork me on <a href="https://github.com/bastienwirtz/homer"><i class="fab fa-github-alt"></i></a></p>' # set false if you want to hide it.
 
 # Optional theme customization
@@ -85,7 +85,7 @@ services:
     icon: "fas fa-pen"
     items:
       - name: "draw.io"
-        logo: "assets/tools/draw.png"
+        logo: "assets/tools/drawio.png"
         subtitle: "Diagramming tool"
         tag: "app"
         url: "https://draw.adrianlam.com/"
@@ -95,7 +95,7 @@ services:
     icon: "fas fa-square-kanban"
     items:
       - name: "Kanboard"
-        logo: "assets/tools/sample.png"
+        logo: "assets/tools/kanboard.png"
         subtitle: "Kanban project management"
         tag: "app"
         url: "https://kanboard.adrianlam.com/"
@@ -105,13 +105,13 @@ services:
     icon: "fas fa-chart-network"
     items:
       - name: "PrivateBin"
-        logo: "assets/tools/sample.png"
+        logo: "assets/tools/privatebin.png"
         subtitle: "Pastebin where the server has zero knowledge of pasted data."
         tag: "app"
         url: "https://bin.adrianlam.com/"
         target: "_blank" # optional html a tag target attribute
       - name: "Send"
-        logo: "assets/tools/sample.png"
+        logo: "assets/tools/send.png"
         subtitle: "End-to-end encrypted file sharing"
         tag: "app"
         url: "https://send.adrianlam.com/"
@@ -121,13 +121,13 @@ services:
     icon: "fas fa-hammer"
     items:
       - name: "YOURLS"
-        logo: "assets/tools/sample.png"
+        logo: "assets/tools/yourls.png"
         subtitle: "URL Shortener"
         tag: "app"
         url: "https://alam.au/admin/"
         target: "_blank" # optional html a tag target attribute
       - name: "CyberChef"
-        logo: "assets/tools/sample.png"
+        logo: "assets/tools/cyberchef.png"
         subtitle: "The Cyber Swiss Army Knife"
         tag: "app"
         url: "https://tools.adrianlam.com/"
@@ -137,32 +137,8 @@ services:
     icon: "fas fa-game-board"
     items:
       - name: "Wordle"
-        logo: "assets/tools/sample.png"
+        logo: "assets/tools/wordle.png"
         subtitle: "Web-based word game"
         tag: "app"
         url: "https://wordle.adrianlam.com/"
-        target: "_blank" # optional html a tag target attribute
-      - name: "Lichess"
-        logo: "assets/tools/sample.png"
-        subtitle: "Internet chess server"
-        tag: "app"
-        url: "https://chess.adrianlam.com/"
-        target: "_blank" # optional html a tag target attribute
-      - name: "2048"
-        logo: "assets/tools/sample.png"
-        subtitle: "2048"
-        tag: "Number puzzle game"
-        url: "https://2048.adrianlam.com/"
-        target: "_blank" # optional html a tag target attribute
-      - name: "FreeCiv"
-        logo: "assets/tools/sample.png"
-        subtitle: "Civilisation-building strategy game"
-        tag: "app"
-        url: "https://civ.adrianlam.com/"
-        target: "_blank" # optional html a tag target attribute
-      - name: "Scribblers"
-        logo: "assets/tools/sample.png"
-        subtitle: "Multiplayer drawing and guessing game"
-        tag: "app"
-        url: "https://scribbler-lama.herokuapp.com/"
         target: "_blank" # optional html a tag target attribute
