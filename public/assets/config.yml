@@ -76,8 +76,8 @@ services:
         target: "_blank" # optional html a tag target attribute
       - name: "FreshRSS"
         logo: "assets/tools/freshrss.png"
-        subtitle: "RSS"
-        tag: "RSS feed aggregator"
+        subtitle: "RSS feed aggregator"
+        tag: "app"
         url: "https://rss.adrianlam.com/"
         target: "_blank" # optional html a tag target attribute
 
