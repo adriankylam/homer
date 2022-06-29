@@ -91,7 +91,7 @@ services:
         target: "_blank" # optional html a tag target attribute
 
   - name: "Planning"
-    icon: "fas fa-square-kanban"
+    icon: "fas fa-analytics"
     items:
       - name: "Kanboard"
         logo: "assets/tools/kanboard.png"
@@ -101,7 +101,7 @@ services:
         target: "_blank" # optional html a tag target attribute
 
   - name: "Content Hosting"
-    icon: "fas fa-chart-network"
+    icon: "fas fa-share"
     items:
       - name: "PrivateBin"
         logo: "assets/tools/privatebin.png"
@@ -133,7 +133,7 @@ services:
         target: "_blank" # optional html a tag target attribute
 
   - name: "Games"
-    icon: "fas fa-game-board"
+    icon: "fas fa-joystick"
     items:
       - name: "Wordle"
         logo: "assets/tools/wordle.png"
