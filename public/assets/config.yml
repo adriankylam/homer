@@ -125,6 +125,12 @@ services:
         tag: "app"
         url: "https://alam.au/admin/"
         target: "_blank" # optional html a tag target attribute
+      - name: "PassCheck"
+        logo: "assets/tools/passcheck.png"
+        subtitle: "Some handy password tools"
+        tag: "app"
+        url: "https://passcheck.adrianlam.com/"
+        target: "_blank" # optional html a tag target attribute
       - name: "CyberChef"
         logo: "assets/tools/cyberchef.png"
         subtitle: "The Cyber Swiss Army Knife"
