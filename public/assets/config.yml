@@ -67,9 +67,15 @@ services:
   - name: "Reference"
     icon: "fas fa-book"
     items:
+      - name: "Ghost"
+        logo: "assets/tools/ghost.png"
+        subtitle: "CMS blogging software"
+        tag: "app"
+        url: "https://ghost.adrianlam.com/"
+        target: "_blank" # optional html a tag target attribute
       - name: "BookStack"
         logo: "assets/tools/bookstack.png"
-        subtitle: "Platform for organising and storing information."
+        subtitle: "Platform for organising and storing information"
         tag: "app"
         url: "https://wiki.adrianlam.com/"
         target: "_blank" # optional html a tag target attribute
