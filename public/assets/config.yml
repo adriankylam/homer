@@ -67,6 +67,12 @@ services:
   - name: "Reference"
     icon: "fas fa-book"
     items:
+      - name: "WriteFreely"
+        logo: "assets/tools/writefreely.png"
+        subtitle: "Writing space on the web"
+        tag: "app"
+        url: "https://write.adrianlam.com/"
+        target: "_blank" # optional html a tag target attribute
       - name: "Ghost"
         logo: "assets/tools/ghost.png"
         subtitle: "CMS blogging software"
