@@ -95,7 +95,13 @@ services:
   - name: "Editors"
     icon: "fas fa-pen"
     items:
-      - name: "draw.io"
+      - name: "Whiteboard"
+        logo: "assets/tools/whiteboard.png"
+        subtitle: "Collaborative whiteboard"
+        tag: "app"
+        url: "https://whiteboard.adrianlam.com/"
+        target: "_blank" # optional html a tag target attribute
+     - name: "draw.io"
         logo: "assets/tools/drawio.png"
         subtitle: "Diagramming tool"
         tag: "app"
