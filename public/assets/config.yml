@@ -69,12 +69,6 @@ services:
         tag: "app"
         url: "https://whiteboard.adrianlam.com/"
         target: "_blank" # optional html a tag target attribute
-      - name: "draw.io"
-        logo: "assets/tools/drawio.png"
-        subtitle: "Diagramming tool"
-        tag: "app"
-        url: "https://draw.adrianlam.com/"
-        target: "_blank" # optional html a tag target attribute
 
   - name: "Planning"
     icon: "fas fa-analytics"
