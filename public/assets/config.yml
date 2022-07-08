@@ -2,12 +2,12 @@
 # Homepage configuration
 # See https://fontawesome.com/v5/search for icons options
 
-title: ""
+title: "Lama"
 subtitle: "App dashboard"
 logo: false
 # icon: "fas fa-skull-crossbones" Optional icon
 
-header: true
+header: false
 
 # Optional theme customization
 theme: sui
@@ -35,12 +35,6 @@ services:
   - name: "Reference"
     icon: "fas fa-book"
     items:
-      - name: "WriteFreely"
-        logo: "assets/tools/writefreely.png"
-        subtitle: "Writing space on the web"
-        tag: "app"
-        url: "https://write.adrianlam.com/"
-        target: "_blank" # optional html a tag target attribute
       - name: "Ghost"
         logo: "assets/tools/ghost.png"
         subtitle: "CMS blogging software"
@@ -59,35 +53,70 @@ services:
         tag: "app"
         url: "https://freshrss.adrianlam.com/"
         target: "_blank" # optional html a tag target attribute
+      - name: "Wallabag"
+        logo: "assets/tools/wallabag.png"
+        subtitle: "Social bookmarking service"
+        tag: "app"
+        url: "https://wallabag.adrianlam.com/"
+        target: "_blank" # optional html a tag target attribute        
 
   - name: "Editors"
     icon: "fas fa-pen"
     items:
-      - name: "Whiteboard"
-        logo: "assets/tools/whiteboard.png"
-        subtitle: "Collaborative whiteboard"
+      - name: "WriteFreely"
+        logo: "assets/tools/writefreely.png"
+        subtitle: "Writing space on the web"
         tag: "app"
-        url: "https://whiteboard.adrianlam.com/"
+        url: "https://write.adrianlam.com/"
         target: "_blank" # optional html a tag target attribute
-      - name: ""draw.io""
-        logo: "assets/tools/drawio.png"
-        subtitle: "Diagramming tool"
-        tag: "app"
-        url: "https://draw.adrianlam.com/"
-        target: "_blank" # optional html a tag target attribute
-
-
-  - name: "Planning"
-    icon: "fas fa-analytics"
-    items:
       - name: "Kanboard"
         logo: "assets/tools/kanboard.png"
         subtitle: "Kanban project management"
         tag: "app"
         url: "https://kanboard.adrianlam.com/"
         target: "_blank" # optional html a tag target attribute
+      - name: "Whiteboard"
+        logo: "assets/tools/whiteboard.png"
+        subtitle: "Collaborative whiteboard"
+        tag: "app"
+        url: "https://whiteboard.adrianlam.com/"
+        target: "_blank" # optional html a tag target attribute
+      - name: "draw io"
+        logo: "assets/tools/drawio.png"
+        subtitle: "Diagramming tool"
+        tag: "app"
+        url: "https://draw.adrianlam.com/"
+        target: "_blank" # optional html a tag target attribute
 
-  - name: "Content Hosting"
+  - name: "Tools"
+    icon: "fas fa-hammer"
+    items:
+      - name: "YOURLS"
+        logo: "assets/tools/yourls.png"
+        subtitle: "URL Shortener"
+        tag: "app"
+        url: "https://alam.au/admin/"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Calculator"
+        logo: "assets/tools/calculator.png"
+        subtitle: "Command-line Calculator"
+        tag: "app"
+        url: "https://calculator.adrianlam.com/"
+        target: "_blank" # optional html a tag target attribute
+      - name: "PassCheck"
+        logo: "assets/tools/passcheck.png"
+        subtitle: "Some handy password tools"
+        tag: "app"
+        url: "https://passcheck.adrianlam.com/"
+        target: "_blank" # optional html a tag target attribute
+      - name: "CyberChef"
+        logo: "assets/tools/cyberchef.png"
+        subtitle: "The Cyber Swiss Army Knife"
+        tag: "app"
+        url: "https://tools.adrianlam.com/"
+        target: "_blank" # optional html a tag target attribute
+
+  - name: "Content Sharing"
     icon: "fas fa-share"
     items:
       - name: "PrivateBin"
@@ -101,28 +130,6 @@ services:
         subtitle: "End-to-end encrypted file sharing"
         tag: "app"
         url: "https://send.adrianlam.com/"
-        target: "_blank" # optional html a tag target attribute
-
-  - name: "Tools"
-    icon: "fas fa-hammer"
-    items:
-      - name: "YOURLS"
-        logo: "assets/tools/yourls.png"
-        subtitle: "URL Shortener"
-        tag: "app"
-        url: "https://alam.au/admin/"
-        target: "_blank" # optional html a tag target attribute
-      - name: "PassCheck"
-        logo: "assets/tools/passcheck.png"
-        subtitle: "Some handy password tools"
-        tag: "app"
-        url: "https://passcheck.adrianlam.com/"
-        target: "_blank" # optional html a tag target attribute
-      - name: "CyberChef"
-        logo: "assets/tools/cyberchef.png"
-        subtitle: "The Cyber Swiss Army Knife"
-        tag: "app"
-        url: "https://tools.adrianlam.com/"
         target: "_blank" # optional html a tag target attribute
 
   - name: "Games"
