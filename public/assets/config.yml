@@ -2,7 +2,7 @@
 # Homepage configuration
 # See https://fontawesome.com/v5/search for icons options
 
-title: "Lama"
+title: ""
 subtitle: "App dashboard"
 logo: false
 # icon: "fas fa-skull-crossbones" Optional icon
@@ -58,4 +58,62 @@ services:
         subtitle: "RSS feed aggregator"
         tag: "app"
         url: "https://freshrss.adrianlam.com/"
+        target: "_blank" # optional html a tag target attribute
+
+  - name: "Planning"
+    icon: "fas fa-analytics"
+    items:
+      - name: "Kanboard"
+        logo: "assets/tools/kanboard.png"
+        subtitle: "Kanban project management"
+        tag: "app"
+        url: "https://kanboard.adrianlam.com/"
+        target: "_blank" # optional html a tag target attribute
+
+  - name: "Content Hosting"
+    icon: "fas fa-share"
+    items:
+      - name: "PrivateBin"
+        logo: "assets/tools/privatebin.png"
+        subtitle: "Pastebin where the server has zero knowledge of pasted data."
+        tag: "app"
+        url: "https://privatebin.adrianlam.com/"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Send"
+        logo: "assets/tools/send.png"
+        subtitle: "End-to-end encrypted file sharing"
+        tag: "app"
+        url: "https://send.adrianlam.com/"
+        target: "_blank" # optional html a tag target attribute
+
+  - name: "Tools"
+    icon: "fas fa-hammer"
+    items:
+      - name: "YOURLS"
+        logo: "assets/tools/yourls.png"
+        subtitle: "URL Shortener"
+        tag: "app"
+        url: "https://alam.au/admin/"
+        target: "_blank" # optional html a tag target attribute
+      - name: "PassCheck"
+        logo: "assets/tools/passcheck.png"
+        subtitle: "Some handy password tools"
+        tag: "app"
+        url: "https://passcheck.adrianlam.com/"
+        target: "_blank" # optional html a tag target attribute
+      - name: "CyberChef"
+        logo: "assets/tools/cyberchef.png"
+        subtitle: "The Cyber Swiss Army Knife"
+        tag: "app"
+        url: "https://tools.adrianlam.com/"
+        target: "_blank" # optional html a tag target attribute
+
+  - name: "Games"
+    icon: "fas fa-joystick"
+    items:
+      - name: "Wordle"
+        logo: "assets/tools/wordle.png"
+        subtitle: "Web-based word game"
+        tag: "app"
+        url: "https://wordle.adrianlam.com/"
         target: "_blank" # optional html a tag target attribute
