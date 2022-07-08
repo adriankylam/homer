@@ -60,6 +60,22 @@ services:
         url: "https://freshrss.adrianlam.com/"
         target: "_blank" # optional html a tag target attribute
 
+  - name: "Editors"
+    icon: "fas fa-pen"
+    items:
+      - name: "Whiteboard"
+        logo: "assets/tools/whiteboard.png"
+        subtitle: "Collaborative whiteboard"
+        tag: "app"
+        url: "https://whiteboard.adrianlam.com/"
+        target: "_blank" # optional html a tag target attribute
+     - name: "draw.io"
+        logo: "assets/tools/drawio.png"
+        subtitle: "Diagramming tool"
+        tag: "app"
+        url: "https://draw.adrianlam.com/"
+        target: "_blank" # optional html a tag target attribute
+
   - name: "Planning"
     icon: "fas fa-analytics"
     items:
