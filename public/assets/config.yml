@@ -38,13 +38,13 @@ services:
     items:
       - name: "Ghost"
         logo: "assets/tools/ghost.png"
-        subtitle: "CMS blogging software"
+        subtitle: "Blogging"
         tag: "app"
         url: "https://blog.adrianlam.com/"
         target: "_blank" # optional html a tag target attribute
       - name: "BookStack"
         logo: "assets/tools/bookstack.png"
-        subtitle: "Platform for organising and storing information"
+        subtitle: "Wiki"
         tag: "app"
         url: "https://wiki.adrianlam.com/"
         target: "_blank" # optional html a tag target attribute
@@ -56,7 +56,7 @@ services:
         target: "_blank" # optional html a tag target attribute
       - name: "Wallabag"
         logo: "assets/tools/wallabag.png"
-        subtitle: "Social bookmarking service"
+        subtitle: "Read it later"
         tag: "app"
         url: "https://wallabag.adrianlam.com/"
         target: "_blank" # optional html a tag target attribute        
@@ -66,7 +66,7 @@ services:
     items:
       - name: "WriteFreely"
         logo: "assets/tools/writefreely.png"
-        subtitle: "Writing space on the web"
+        subtitle: "Writing space"
         tag: "app"
         url: "https://write.adrianlam.com/"
         target: "_blank" # optional html a tag target attribute
@@ -106,13 +106,13 @@ services:
         target: "_blank" # optional html a tag target attribute
       - name: "PassCheck"
         logo: "assets/tools/passcheck.png"
-        subtitle: "Some handy password tools"
+        subtitle: "Password tools"
         tag: "app"
         url: "https://passcheck.adrianlam.com/"
         target: "_blank" # optional html a tag target attribute
       - name: "CyberChef"
         logo: "assets/tools/cyberchef.png"
-        subtitle: "The Cyber Swiss Army Knife"
+        subtitle: "Cyber Swiss Army Knife"
         tag: "app"
         url: "https://tools.adrianlam.com/"
         target: "_blank" # optional html a tag target attribute
@@ -122,13 +122,13 @@ services:
     items:
       - name: "PrivateBin"
         logo: "assets/tools/privatebin.png"
-        subtitle: "Pastebin where the server has zero knowledge of pasted data."
+        subtitle: "Pastebin"
         tag: "app"
         url: "https://privatebin.adrianlam.com/"
         target: "_blank" # optional html a tag target attribute
       - name: "Send"
         logo: "assets/tools/send.png"
-        subtitle: "Secure and user friendly file sharing software"
+        subtitle: "File sharing"
         tag: "app"
         url: "https://send.adrianlam.com/"
         target: "_blank" # optional html a tag target attribute
@@ -138,7 +138,7 @@ services:
     items:
       - name: "Wordle"
         logo: "assets/tools/wordle.png"
-        subtitle: "Web-based word game"
+        subtitle: "Word game"
         tag: "app"
         url: "https://wordle.adrianlam.com/"
         target: "_blank" # optional html a tag target attribute
