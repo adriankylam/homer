@@ -128,7 +128,7 @@ services:
         target: "_blank" # optional html a tag target attribute
       - name: "Send"
         logo: "assets/tools/send.png"
-        subtitle: "End-to-end encrypted file sharing"
+        subtitle: "Secure and user friendly file sharing software"
         tag: "app"
         url: "https://send.adrianlam.com/"
         target: "_blank" # optional html a tag target attribute
