@@ -126,7 +126,7 @@ services:
         tag: "app"
         url: "https://privatebin.adrianlam.com/"
         target: "_blank" # optional html a tag target attribute
-      - name: "Send"
+      - name: "ProjectSend"
         logo: "assets/tools/send.png"
         subtitle: "File sharing"
         tag: "app"
