@@ -142,3 +142,9 @@ services:
         tag: "app"
         url: "https://wordle.adrianlam.com/"
         target: "_blank" # optional html a tag target attribute
+      - name: "Sudoku"
+        logo: "assets/tools/sudoku.png"
+        subtitle: "Number puzzle"
+        tag: "app"
+        url: "https://sudoku.adrianlam.com/"
+        target: "_blank" # optional html a tag target attribute
