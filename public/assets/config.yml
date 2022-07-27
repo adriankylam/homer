@@ -92,29 +92,23 @@ services:
   - name: "Tools"
     icon: "fas fa-hammer"
     items:
-      - name: "YOURLS"
-        logo: "assets/tools/yourls.png"
-        subtitle: "URL Shortener"
-        tag: "app"
-        url: "https://alam.au/admin/"
-        target: "_blank" # optional html a tag target attribute
-      - name: "Calculator"
-        logo: "assets/tools/calculator.png"
-        subtitle: "Command-line Calculator"
-        tag: "app"
-        url: "https://calculator.adrianlam.com/"
-        target: "_blank" # optional html a tag target attribute
       - name: "CyberChef"
         logo: "assets/tools/cyberchef.png"
         subtitle: "Cyber Swiss Army Knife"
         tag: "app"
         url: "https://tools.adrianlam.com/"
         target: "_blank" # optional html a tag target attribute
-      - name: "lingva Translate"
+      - name: "Lingva Translate"
         logo: "assets/tools/translate.png"
         subtitle: "Language translator"
         tag: "app"
         url: "https://passcheck.adrianlam.com/"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Calculator"
+        logo: "assets/tools/calculator.png"
+        subtitle: "Command-line Calculator"
+        tag: "app"
+        url: "https://calculator.adrianlam.com/"
         target: "_blank" # optional html a tag target attribute
       - name: "PassCheck"
         logo: "assets/tools/passcheck.png"
@@ -126,6 +120,12 @@ services:
   - name: "Content Sharing"
     icon: "fas fa-share"
     items:
+       - name: "YOURLS"
+        logo: "assets/tools/yourls.png"
+        subtitle: "URL Shortener"
+        tag: "app"
+        url: "https://alam.au/admin/"
+        target: "_blank" # optional html a tag target attribute
       - name: "PrivateBin"
         logo: "assets/tools/privatebin.png"
         subtitle: "Pastebin"
