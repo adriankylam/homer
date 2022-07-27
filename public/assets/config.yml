@@ -104,17 +104,23 @@ services:
         tag: "app"
         url: "https://calculator.adrianlam.com/"
         target: "_blank" # optional html a tag target attribute
-      - name: "PassCheck"
-        logo: "assets/tools/passcheck.png"
-        subtitle: "Password tools"
-        tag: "app"
-        url: "https://passcheck.adrianlam.com/"
-        target: "_blank" # optional html a tag target attribute
       - name: "CyberChef"
         logo: "assets/tools/cyberchef.png"
         subtitle: "Cyber Swiss Army Knife"
         tag: "app"
         url: "https://tools.adrianlam.com/"
+        target: "_blank" # optional html a tag target attribute
+      - name: "lingva Translate"
+        logo: "assets/tools/translate.png"
+        subtitle: "Language translator"
+        tag: "app"
+        url: "https://passcheck.adrianlam.com/"
+        target: "_blank" # optional html a tag target attribute
+      - name: "PassCheck"
+        logo: "assets/tools/passcheck.png"
+        subtitle: "Password tools"
+        tag: "app"
+        url: "https://passcheck.adrianlam.com/"
         target: "_blank" # optional html a tag target attribute
 
   - name: "Content Sharing"
@@ -147,4 +153,10 @@ services:
         subtitle: "Number puzzle"
         tag: "app"
         url: "https://sudoku.adrianlam.com/"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Mahjong Solitaire"
+        logo: "assets/tools/mahjong.png"
+        subtitle: "Tile matching"
+        tag: "app"
+        url: "https://mahjong.adrianlam.com/"
         target: "_blank" # optional html a tag target attribute
