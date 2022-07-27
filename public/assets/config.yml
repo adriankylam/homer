@@ -120,7 +120,7 @@ services:
   - name: "Content Sharing"
     icon: "fas fa-share"
     items:
-       - name: "YOURLS"
+      - name: "YOURLS"
         logo: "assets/tools/yourls.png"
         subtitle: "URL Shortener"
         tag: "app"
