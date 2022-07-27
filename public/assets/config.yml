@@ -102,7 +102,7 @@ services:
         logo: "assets/tools/translate.png"
         subtitle: "Language translator"
         tag: "app"
-        url: "https://passcheck.adrianlam.com/"
+        url: "https://translate.adrianlam.com/"
         target: "_blank" # optional html a tag target attribute
       - name: "Calculator"
         logo: "assets/tools/calculator.png"
