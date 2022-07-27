@@ -140,7 +140,7 @@ services:
         target: "_blank" # optional html a tag target attribute
 
   - name: "Games"
-    icon: "fas fa-joystick"
+    icon: "fas fa-puzzle-piece-simple"
     items:
       - name: "Wordle"
         logo: "assets/tools/wordle.png"
@@ -159,4 +159,14 @@ services:
         subtitle: "Tile matching"
         tag: "app"
         url: "https://mahjong.adrianlam.com/"
+        target: "_blank" # optional html a tag target attribute
+
+  - name: "Utilities"
+    icon: "fas fa-monitor-waveform"
+    items:
+      - name: "Upptime"
+        logo: "assets/tools/upptime.png"
+        subtitle: "Uptime monitoring"
+        tag: "app"
+        url: "https://status.adrianlam.com/"
         target: "_blank" # optional html a tag target attribute
