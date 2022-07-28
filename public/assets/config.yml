@@ -60,6 +60,12 @@ services:
         tag: "app"
         url: "https://wallabag.adrianlam.com/"
         target: "_blank" # optional html a tag target attribute        
+      - name: "Calibre Web"
+        logo: "assets/tools/calibre.png"
+        subtitle: "eBook library"
+        tag: "app"
+        url: "https://books.adrianlam.com/"
+        target: "_blank" # optional html a tag target attribute        
 
   - name: "Editors"
     icon: "fas fa-pen"
