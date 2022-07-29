@@ -176,3 +176,9 @@ services:
         tag: "app"
         url: "https://status.adrianlam.com/"
         target: "_blank" # optional html a tag target attribute
+      - name: "Wetty"
+        logo: "assets/tools/wetty.png"
+        subtitle: "Uptime monitoring"
+        tag: "app"
+        url: "https://wetty.adrianlam.com/"
+        target: "_blank" # optional html a tag target attribute
