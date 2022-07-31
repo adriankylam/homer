@@ -60,9 +60,9 @@ services:
         tag: "app"
         url: "https://wallabag.adrianlam.com/"
         target: "_blank" # optional html a tag target attribute        
-      - name: "Calibre Web"
-        logo: "assets/tools/calibre.png"
-        subtitle: "eBook library"
+      - name: "Kavita"
+        logo: "assets/tools/kavita.png"
+        subtitle: "Digital library"
         tag: "app"
         url: "https://books.adrianlam.com/"
         target: "_blank" # optional html a tag target attribute        
@@ -178,7 +178,7 @@ services:
         target: "_blank" # optional html a tag target attribute
       - name: "Wetty"
         logo: "assets/tools/wetty.png"
-        subtitle: "Uptime monitoring"
+        subtitle: "Web + TTY"
         tag: "app"
         url: "https://wetty.adrianlam.com/"
         target: "_blank" # optional html a tag target attribute
