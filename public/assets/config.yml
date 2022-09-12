@@ -1,0 +1,184 @@
+---
+# Homepage configuration
+# See https://fontawesome.com/v5/search for icons options
+
+title: "Lama"
+subtitle: "App dashboard"
+logo: false
+# icon: "fas fa-skull-crossbones" Optional icon
+
+header: false
+footer: false
+
+# Optional theme customization
+theme: sui
+colors:
+  light:
+    highlight-primary: transparent
+    highlight-secondary: transparent
+    highlight-hover: "#4a4a4a"
+    text-subtitle: "#424242"
+  dark:
+    background: "#2B2C56"
+    highlight-primary: transparent
+    highlight-secondary: transparent
+    highlight-hover: "#200b35"
+    text-subtitle: "#6375e8"
+
+# Optional navbar
+# links: [] # Allows for navbar (dark mode, layout, and search) without any links
+links: []
+
+# Services
+# First level array represent a group.
+# Leave only a "items" key if not using group (group name, icon & tagstyle are optional, section separation will not be displayed).
+services:
+  - name: "Reference"
+    icon: "fas fa-book"
+    items:
+      - name: "Ghost"
+        logo: "assets/tools/ghost.png"
+        subtitle: "Blogging"
+        tag: "app"
+        url: "https://blog.adrianlam.com/"
+        target: "_blank" # optional html a tag target attribute
+      - name: "BookStack"
+        logo: "assets/tools/bookstack.png"
+        subtitle: "Wiki"
+        tag: "app"
+        url: "https://wiki.adrianlam.com/"
+        target: "_blank" # optional html a tag target attribute
+      - name: "FreshRSS"
+        logo: "assets/tools/freshrss.png"
+        subtitle: "RSS feed aggregator"
+        tag: "app"
+        url: "https://freshrss.adrianlam.com/"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Wallabag"
+        logo: "assets/tools/wallabag.png"
+        subtitle: "Read it later"
+        tag: "app"
+        url: "https://wallabag.adrianlam.com/"
+        target: "_blank" # optional html a tag target attribute        
+      - name: "Kavita"
+        logo: "assets/tools/kavita.png"
+        subtitle: "Digital library"
+        tag: "app"
+        url: "https://books.adrianlam.com/"
+        target: "_blank" # optional html a tag target attribute        
+
+  - name: "Editors"
+    icon: "fas fa-pen"
+    items:
+      - name: "WriteFreely"
+        logo: "assets/tools/writefreely.png"
+        subtitle: "Writing space"
+        tag: "app"
+        url: "https://write.adrianlam.com/"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Kanboard"
+        logo: "assets/tools/kanboard.png"
+        subtitle: "Kanban project management"
+        tag: "app"
+        url: "https://kanboard.adrianlam.com/"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Whiteboard"
+        logo: "assets/tools/whiteboard.png"
+        subtitle: "Collaborative whiteboard"
+        tag: "app"
+        url: "https://whiteboard.adrianlam.com/"
+        target: "_blank" # optional html a tag target attribute
+      - name: "draw io"
+        logo: "assets/tools/drawio.png"
+        subtitle: "Diagramming tool"
+        tag: "app"
+        url: "https://draw.adrianlam.com/"
+        target: "_blank" # optional html a tag target attribute
+
+  - name: "Tools"
+    icon: "fas fa-hammer"
+    items:
+      - name: "CyberChef"
+        logo: "assets/tools/cyberchef.png"
+        subtitle: "Cyber Swiss Army Knife"
+        tag: "app"
+        url: "https://tools.adrianlam.com/"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Lingva Translate"
+        logo: "assets/tools/translate.png"
+        subtitle: "Language translator"
+        tag: "app"
+        url: "https://translate.adrianlam.com/"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Calculator"
+        logo: "assets/tools/calculator.png"
+        subtitle: "Command-line Calculator"
+        tag: "app"
+        url: "https://calculator.adrianlam.com/"
+        target: "_blank" # optional html a tag target attribute
+      - name: "PassCheck"
+        logo: "assets/tools/passcheck.png"
+        subtitle: "Password tools"
+        tag: "app"
+        url: "https://passcheck.adrianlam.com/"
+        target: "_blank" # optional html a tag target attribute
+
+  - name: "Content Sharing"
+    icon: "fas fa-share"
+    items:
+      - name: "YOURLS"
+        logo: "assets/tools/yourls.png"
+        subtitle: "URL Shortener"
+        tag: "app"
+        url: "https://alam.au/admin/"
+        target: "_blank" # optional html a tag target attribute
+      - name: "PrivateBin"
+        logo: "assets/tools/privatebin.png"
+        subtitle: "Pastebin"
+        tag: "app"
+        url: "https://privatebin.adrianlam.com/"
+        target: "_blank" # optional html a tag target attribute
+      - name: "ProjectSend"
+        logo: "assets/tools/send.png"
+        subtitle: "File sharing"
+        tag: "app"
+        url: "https://send.adrianlam.com/"
+        target: "_blank" # optional html a tag target attribute
+
+  - name: "Games"
+    icon: "fas fa-puzzle-piece-simple"
+    items:
+      - name: "Wordle"
+        logo: "assets/tools/wordle.png"
+        subtitle: "Word game"
+        tag: "app"
+        url: "https://wordle.adrianlam.com/"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Sudoku"
+        logo: "assets/tools/sudoku.png"
+        subtitle: "Number puzzle"
+        tag: "app"
+        url: "https://sudoku.adrianlam.com/"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Mahjong Solitaire"
+        logo: "assets/tools/mahjong.png"
+        subtitle: "Tile matching"
+        tag: "app"
+        url: "https://mahjong.adrianlam.com/"
+        target: "_blank" # optional html a tag target attribute
+
+  - name: "Utilities"
+    icon: "fas fa-monitor-waveform"
+    items:
+      - name: "Upptime"
+        logo: "assets/tools/upptime.png"
+        subtitle: "Uptime monitoring"
+        tag: "app"
+        url: "https://status.adrianlam.com/"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Wetty"
+        logo: "assets/tools/wetty.png"
+        subtitle: "Web + TTY"
+        tag: "app"
+        url: "https://wetty.adrianlam.com/"
+        target: "_blank" # optional html a tag target attribute
